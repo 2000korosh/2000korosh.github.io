@@ -8,7 +8,7 @@ body {
 	height: 100vh;
 	font-family: 'Karla', sans-serif;
 
-	background-image: url("https://2000korosh.github.io/background/grid1.png");
+	background-image: url("background/grid1.png");
     background-repeat: repeat;
 }
 
@@ -18,7 +18,7 @@ div#main {
 	width: 100%;
 	background-color: #E3F0FF;
 	background-color: #E6E6E6;
-	height: 95vh;
+	height: 95%;
 }
 
 h1 {
@@ -127,6 +127,10 @@ img#headerimg {
 
 }
 
+.header {
+	height: 3vh;
+}
+
 .contacts li{
 	padding-bottom: 1%;
 }
@@ -187,4 +191,95 @@ p {
 
 .zoom2 {
 	border: 1px solid #808000;
+}
+
+.navtext {
+	margin-left: 35%;
+}
+
+.navtext2 {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1400px){ 
+	.navtext {
+		font-size: 20px;
+		margin-left: 25%;
+	}
+
+	.nav a {
+		font-size: 20px;
+	}
+
+	body {
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+}
+
+@media screen and (max-width: 1115px){ 
+	.navtext {
+		font-size: 18px;
+		margin-left: 15%;
+	}
+
+	.navtext2 {
+		font-size: 18px;
+	}
+	.nav a {
+		font-size: 18px;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	.header {
+		height: 2vh;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-height: 1000px) {
+	.footer {
+		height: 3vh;
+	}
+	.header {
+		height: 3vh;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-height: 750px) {
+	.footer {
+		height: 6vh;
+	}
+	.header {
+		height: 6vh;
+	}
+	body {
+		height: 140vh;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-height: 500px) {
+	.footer {
+		height: 6vh;
+	}
+	.header {
+		height: 6vh;
+	}
+	body {
+		height: 200vh;
+	}
+}
+
+
+@media screen and (orientation: landscape) and (max-height: 400px) {
+	.footer {
+		height: 6vh;
+	}
+	.header {
+		height: 6vh;
+	}
+	body {
+		height: 240vh;
+	}
 }
